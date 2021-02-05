@@ -1,10 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Filter from './Filter.jsx';
+import Image from './Image.jsx';
 
 export default class AppContainer extends Component {
     render() {
         return (
-           <Filter />
+            <Fragment>
+                <Filter />
+                <Image />
+            </Fragment>
         )
     }
 }
