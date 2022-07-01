@@ -1,0 +1,31 @@
+@import '../../components/react-grid/react-grid';
+@import '../../components/form-filter';
+@import '../../components/forms';
+@import '../../components/icons';
+@import '../../components/messages';
+@import '../../components/modal';
+@import '../../components/tables';
+
+.form-filter {
+    .form-row {
+        .form-group {
+            width: 350px;
+        }
+    }
+}
+
+.parent-level-0{
+    background-color: goldenrod !important;
+}
+
+.table-number{
+    display: flex !important;
+}
+
+/*.body-content{
+    max-height: 1000px !important
+}*/
+
+// .table-number-end{
+//     max-height: 400px;
+// }
